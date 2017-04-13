@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty --format html --out report.html
+smoke: --no-source --color --format pretty --format html --out report.html --tags @smoke
+regression_patch: --no-source --color --format pretty --format html --out report.html --tags ~@smoke Environment['patch']
+
+
