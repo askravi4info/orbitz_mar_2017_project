@@ -4,6 +4,7 @@
     <list default="true" id="90ec5c13-77a9-4528-bc27-13a930528b1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/orbitz_mar_2017_project.iml" afterPath="$PROJECT_DIR$/.idea/orbitz_mar_2017_project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/flight/orbitz_flight_search.feature" afterPath="$PROJECT_DIR$/features/flight/orbitz_flight_search.feature" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testing.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testing.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flight_reservation.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/flight/flight_reservation.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orbitz_flight_search.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/flight/orbitz_flight_search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -43,11 +64,18 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.rb" />
+        <option value="$PROJECT_DIR$/features/flight/flight_reservation.feature" />
+        <option value="$PROJECT_DIR$/features/flight/orbitz_flight_search.feature" />
       </list>
     </option>
   </component>
@@ -324,12 +352,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492044078301</updated>
-      <workItem from="1492044079988" duration="681000" />
+      <workItem from="1492044079988" duration="1251000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding the Feature files along with the page object">
+      <created>1492044795586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492044795586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="681000" />
+    <option name="totallyTimeSpent" value="1251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2574" height="1532" extended-state="0" />
@@ -360,6 +396,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding the Feature files along with the page object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the Feature files along with the page object" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -376,7 +416,23 @@
     <entry file="file://$PROJECT_DIR$/testing.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/flight/flight_reservation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/flight/orbitz_flight_search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
